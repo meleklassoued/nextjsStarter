@@ -7,7 +7,11 @@ interface Props {
 
 const links = [
   { slug: '/', label: 'Home' },
-  { slug: '/custom-layout', label: 'Custom layout' }
+  { slug: '/custom-layout', label: 'Custom layout' },
+  {
+    slug: '/hello',
+    label: 'hello'
+  }
 ];
 
 // This is the place responsible for wrapping your app.
